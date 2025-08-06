@@ -1,0 +1,13 @@
+2025-08-03 16:09:28,177 - __main__ - ERROR - Erro ao importar bibliotecas: cannot import name 'lsim' from 'control' (/home/luis-fernando-a-dos-santos/Documentos/TCC/TCC - COMPUTAÇÃO/venv/lib/python3.12/site-packages/control/__init__.py)
+2025-08-03 16:09:53,538 - __main__ - ERROR - Erro ao importar bibliotecas: cannot import name 'lsim' from 'control' (/home/luis-fernando-a-dos-santos/Documentos/TCC/TCC - COMPUTAÇÃO/venv/lib/python3.12/site-packages/control/__init__.py)
+2025-08-03 16:10:04,335 - __main__ - ERROR - Erro ao importar bibliotecas: cannot import name 'lsim' from 'control' (/home/luis-fernando-a-dos-santos/Documentos/TCC/TCC - COMPUTAÇÃO/venv/lib/python3.12/site-packages/control/__init__.py)
+2025-08-03 16:11:27,134 - __main__ - ERROR - Erro ao importar bibliotecas: cannot import name 'lsim' from 'control' (/home/luis-fernando-a-dos-santos/Documentos/TCC/TCC - COMPUTAÇÃO/venv/lib/python3.12/site-packages/control/__init__.py)
+2025-08-03 16:11:41,773 - __main__ - ERROR - Erro ao importar bibliotecas: cannot import name 'lsim' from 'control' (/home/luis-fernando-a-dos-santos/Documentos/TCC/TCC - COMPUTAÇÃO/venv/lib/python3.12/site-packages/control/__init__.py)
+2025-08-03 16:18:49,916 - __main__ - ERROR - Erro ao importar bibliotecas: cannot import name 'lsim' from 'control' (/home/luis-fernando-a-dos-santos/Documentos/TCC/TCC - COMPUTAÇÃO/venv/lib/python3.12/site-packages/control/__init__.py)
+2025-08-03 16:20:57,422 - __main__ - ERROR - Erro ao importar bibliotecas: cannot import name 'lsim' from 'control' (/home/luis-fernando-a-dos-santos/Documentos/TCC/TCC - COMPUTAÇÃO/venv/lib/python3.12/site-packages/control/__init__.py)
+2025-08-03 16:23:33,037 - __main__ - ERROR - Erro ao importar bibliotecas: cannot import name 'lsim' from 'control' (/home/luis-fernando-a-dos-santos/Documentos/TCC/TCC - COMPUTAÇÃO/venv/lib/python3.12/site-packages/control/__init__.py)
+2025-08-03 16:38:39,819 - ERROR - Uma ou mais bibliotecas essenciais (python-control, fpdf2, pandas) não foram encontradas.
+2025-08-03 16:45:09,826 - ERROR - Uma ou mais bibliotecas essenciais (python-control, fpdf2, pandas) não foram encontradas.
+2025-08-03 16:49:24,184 - ERROR - Uma ou mais bibliotecas essenciais (python-control, fpdf2, pandas) não foram encontradas.
+2025-08-03 16:50:05,774 - ERROR - Uma ou mais bibliotecas essenciais (python-control, fpdf2, pandas) não foram encontradas.
+2025-08-03 16:53:40,009 - ERROR - Uma ou mais bibliotecas essenciais (python-control, fpdf2, pandas) não foram encontradas.

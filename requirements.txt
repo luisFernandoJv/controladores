@@ -1,0 +1,8 @@
+pyinstaller
+matplotlib
+numpy
+scipy
+control
+sympy
+pillow
+fpdf2
