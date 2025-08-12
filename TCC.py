@@ -570,7 +570,7 @@ class AdvancedControlSystemApp:
                        variable=self.show_ctrl_lgr_var).pack(anchor="w", pady=2)
     
     def load_example(self, example_name, example_params):
-        """Carrega um exemplo pré-definido"""
+        """Carrega um exemplo pré-definido s"""
         self.num_entry.delete(0, tk.END)
         self.num_entry.insert(0, " ".join(map(str, example_params["num"])))
         self.den_entry.delete(0, tk.END)

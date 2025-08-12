@@ -1,8 +1,0 @@
-# Ignorar arquivos temporários e de build
-build/
-dist/
-__pycache__/
-*.pyc
-*.spec
-venv/
-.venv/
