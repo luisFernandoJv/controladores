@@ -1,44 +1,38 @@
 # Nome do workflow que aparecerá na aba "Actions" do GitHub
 name: Build Windows Executable
 
-# Gatilhos: Quando esta ação deve rodar?
 on:
-  # Roda toda vez que você fizer um 'git push' para a branch master
   push:
     branches: [ "master" ]
-  # Permite que você rode esta ação manualmente pela interface do GitHub
   workflow_dispatch:
 
-# Tarefas que o workflow vai executar
 jobs:
   build:
-    # Usar a versão mais recente do Windows disponível no GitHub Actions
     runs-on: windows-latest
 
     steps:
-      # 1. Baixa o código do seu repositório para a máquina virtual
+      # 1. Baixa o código do seu repositório
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Configura o ambiente Python na máquina virtual
+      # 2. Configura o Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.9' # Usando Python 3.9, pode ser ajustado
+          python-version: '3.9'
 
-      # 3. Instala todas as dependências do seu projeto e o PyInstaller
+      # 3. Instala dependências (incluindo sympy)
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyinstaller fpdf2 matplotlib control numpy scipy
+          pip install pyinstaller fpdf2 matplotlib control numpy scipy sympy
 
-      # 4. Roda o PyInstaller para criar o executável
-      #    (Confirme se 'TCC.py' é o nome do seu arquivo principal)
+      # 4. Gera o executável
       - name: Build executable with PyInstaller
         run: |
           pyinstaller --onefile --windowed --name="Controladores" TCC.py
 
-      # 5. Envia o .exe gerado como um "artefato" que você pode baixar
+      # 5. Faz upload do .exe
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
